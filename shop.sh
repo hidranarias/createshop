@@ -1,4 +1,4 @@
-echo "project name $1, $2"
+echo "project name $1, $2, $3"
 DIR="$PWD/$1"
 DOCKERDIR="$DIR/docker"
 if [[ -z $2 ]]
@@ -9,7 +9,7 @@ SHOP=$2
 fi
 if [[ -z $3 ]]
 then
- VERSION="202204.0-p2"
+ VERSION="202212.0"
 else
 SHOP=$3
 fi
